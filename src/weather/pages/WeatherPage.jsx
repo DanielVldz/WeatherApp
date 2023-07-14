@@ -1,6 +1,8 @@
 
+import { Typography } from "@mui/material"
+
 export const WeatherPage = () => {
   return (
-    <div>WeatherPage</div>
+    <Typography variant='h1'>WeatherPage</Typography>
   )
 }
