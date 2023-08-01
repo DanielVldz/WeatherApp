@@ -1,4 +1,4 @@
-import { Alert, Button, Grid, TextField, Typography } from '@mui/material'
+import { Button, Grid, Typography } from '@mui/material'
 import '../../styles.css'
 import { Google } from '@mui/icons-material'
 
@@ -28,7 +28,7 @@ export const LoginPage = () => {
             style={{
               marginLeft: '10px',
               width: '65%', // Reduce el ancho a la mitad
-              height: 'auto', // Ajusta la altura de forma proporcional
+              height: 'auto', // Ajusta la altura de forma proporcional<
             }}
           />
           </Grid>
